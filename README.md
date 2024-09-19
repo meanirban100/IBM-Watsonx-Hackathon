@@ -40,7 +40,7 @@ Integrate IBM Watsonx Granite model for sentiment analysis, call summarization, 
 - **Call Summary**: `ibm/granite-13b-chat-v2`
 
 ### Notebook 
-- [hackathon-challenge.ipynb](https://github.com/meanirban100/IBM-Watson-Hackathon/blob/main/hackathon-challenge.ipynb) (Generate the apikey from IBM cloud platform)
+- [hackathon-challenge.ipynb](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/hackathon-challenge.ipynb) (Generate the apikey from IBM cloud platform)
 
 ## Way Forward
 - **Improved Productivity & Efficiency**: Call summary analysis can enhance both call center productivity and overall efficiency.
@@ -93,7 +93,7 @@ Integrate IBM Watsonx Granite model for sentiment analysis, call summarization, 
 ![Location wise call record volume](images/image-13.png)
 
 ## Presentation
-[Deck](https://github.com/meanirban100/IBM-Watson-Hackathon/blob/main/IBM-Watsonx-Presentation.pptx)
+[Deck](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/IBM-Watsonx-Presentation.pptx)
 
 ## Note
 
