@@ -1,6 +1,6 @@
 # Enhanced Customer Experience & Improved Employee Productivity using IBM-Watsonx
 
-![IBM Watsonx](image.png)
+![IBM Watsonx](images/image-21.png)
 
 ## Index
 1. [Background](#background)
@@ -50,7 +50,7 @@ Integrate IBM Watsonx Granite model for sentiment analysis, call summarization, 
 
 ## Solution Architecture
 
-![Solution Architecture](image-1.png)
+![Solution Architecture](images/image-20.png)
 
 ## Application Walkthorugh
 
