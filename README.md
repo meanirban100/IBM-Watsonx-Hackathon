@@ -1,4 +1,4 @@
-# Enhanced Customer Experience & Improved Employee Productivity
+# Enhanced Customer Experience & Improved Employee Productivity using IBM-Watson
 
 ![IBM Watson](images/image-1.png)
 
@@ -8,10 +8,10 @@
 3. [Solution Stack](#solution-stack)
 4. [Dataset Used](#dataset-used)
 5. [LLM Model Used](#llm-model-used)
-6. [Other](#other)
-7. [Way Forward](#way-forward)
-8. [Application Walkthorugh](#application-walkthorugh)
-9. [Presentation](#Presentation)
+6. [Way Forward](#way-forward)
+7. [Application Walkthorugh](#application-walkthorugh)
+8. [Presentation](#Presentation)
+9. [Note](#Note)
 10. [Credits](##credits)
 
 ## Background
@@ -27,19 +27,20 @@ An e-commerce platform faces a challenge with its call center data. Each day, th
 Integrate IBM Watson Granite model for sentiment analysis, call summarization, and feature extraction to address the challenges along with prompt engineering techniques.
 
 
-## Tech Spec
+## Tech Artifacts
 - **Language**: Python
 
 ### Dataset Used
 - **Name**: NebulaByte/E-Commerce_Customer_Support_Conversations
-- **Source**: [Hugging Face](https://huggingface.co/datasets/NebulaByte/E-Commerce_Customer_Support_Conversations)
+- **Source**: [HuggingFace Dataset](https://huggingface.co/datasets/NebulaByte/E-Commerce_Customer_Support_Conversations)
 - **Column Used**: conversation
-- **Source** : HuggingFace
 
 ### LLM Model Used
 - **Sentiment Analysis**: `ibm/granite-13b-instruct-v2`
 - **Call Summary**: `ibm/granite-13b-chat-v2`
 
+### Notebook 
+- [hackathon-challenge.ipynb](https://github.com/meanirban100/IBM-Watson-Hackathon/blob/main/hackathon-challenge.ipynb)
 
 ## Way Forward
 - **Improved Productivity & Efficiency**: Call summary analysis can enhance both call center productivity and overall efficiency.
@@ -89,7 +90,14 @@ Integrate IBM Watson Granite model for sentiment analysis, call summarization, a
 ![Location wise call record volume](images/image-13.png)
 
 ## Presentation
-https://github.com/meanirban100/IBM-Watson-Hackathon/blob/main/IBM-Watson-Presentation.pptx
+[Deck](https://github.com/meanirban100/IBM-Watson-Hackathon/blob/main/IBM-Watson-Presentation.pptx)
+
+## Note
+
+This submission is intended for the IBM TechXchange Pre-Conference Watsonx Hackathon. 
+
+Refer the [link](https://compete.pretxchack.watsonx-challenge.ibm.com/competitions/pre-txc) for further information. 
+
 
 ## Credits
 ### Anirban Banerjee
