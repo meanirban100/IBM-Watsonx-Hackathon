@@ -92,6 +92,5 @@ Integrate IBM Watson Granite model for sentiment analysis, call summarization, a
 https://github.com/meanirban100/IBM-Watson-Hackathon/blob/main/IBM-Watson-Presentation.pptx
 
 ## Credits
-Anirban Banerjee
-
-Ajoy Kumar Daga
+### Anirban Banerjee
+### Ajoy Kumar Daga
