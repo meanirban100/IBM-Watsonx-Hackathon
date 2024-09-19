@@ -1,6 +1,6 @@
-# Enhanced Customer Experience & Improved Employee Productivity using IBM-Watson
+# Enhanced Customer Experience & Improved Employee Productivity using IBM-Watsonx
 
-![IBM Watson](images/image-1.png)
+![IBM Watsonx](image.png)
 
 ## Index
 1. [Background](#background)
@@ -9,22 +9,22 @@
 4. [Dataset Used](#dataset-used)
 5. [LLM Model Used](#llm-model-used)
 6. [Way Forward](#way-forward)
-7. [Application Walkthorugh](#application-walkthorugh)
-8. [Presentation](#Presentation)
-9. [Note](#Note)
-10. [Credits](##credits)
+7. [Solution Architecture](#solution-architecture)
+8. [Application Walkthorugh](#application-walkthorugh)
+9. [Presentation](#Presentation)
+10. [Note](#Note)
+11. [Credits](##credits)
 
 ## Background
 An e-commerce platform faces a challenge with its call center data. Each day, the center handles a high volume of customer interactions through customer care calls, generating extensive data files of feedback and complaints. However, this wealth of data remains underutilized, offering limited insights into overall customer satisfaction and regional issues. The platform struggles to effectively analyze this data to identify trends, sentiment, and recurring problems, which hinders its ability to improve service quality and address customer concerns proactively.
 
 ## Challenge
-- **Real-Time Data Analysis**: Analyze call recordings in real time.
 - **Sentiment Analysis**: Accurately determine sentiment from call conversations.
 - **Call Summarization**: Summarize calls for further analysis.
 - **Regional Insights**: Extract and visualize location-based trends and issues.
 
 ## Solution Stack
-Integrate IBM Watson Granite model for sentiment analysis, call summarization, and feature extraction to address the challenges along with prompt engineering techniques.
+Integrate IBM Watsonx Granite model for sentiment analysis, call summarization, and feature extraction to address the challenges along with prompt engineering techniques.
 
 
 ## Tech Artifacts
@@ -40,7 +40,7 @@ Integrate IBM Watson Granite model for sentiment analysis, call summarization, a
 - **Call Summary**: `ibm/granite-13b-chat-v2`
 
 ### Notebook 
-- [hackathon-challenge.ipynb](https://github.com/meanirban100/IBM-Watson-Hackathon/blob/main/hackathon-challenge.ipynb)
+- [hackathon-challenge.ipynb](https://github.com/meanirban100/IBM-Watson-Hackathon/blob/main/hackathon-challenge.ipynb) (Generate the apikey from IBM cloud platform)
 
 ## Way Forward
 - **Improved Productivity & Efficiency**: Call summary analysis can enhance both call center productivity and overall efficiency.
@@ -48,6 +48,9 @@ Integrate IBM Watson Granite model for sentiment analysis, call summarization, a
 - **Real-Time Implementation**: The entire process can be deployed in real time by integrating with an event hub, pipeline orchestration layer, and data transformation layer.
 - **Cloud Integration Flexibility**: The solution can seamlessly integrate with other cloud platforms such as AWS, Azure, and GCP, ensuring scalability and flexibility.
 
+## Solution Architecture
+
+![Solution Architecture](image-1.png)
 
 ## Application Walkthorugh
 
@@ -90,7 +93,7 @@ Integrate IBM Watson Granite model for sentiment analysis, call summarization, a
 ![Location wise call record volume](images/image-13.png)
 
 ## Presentation
-[Deck](https://github.com/meanirban100/IBM-Watson-Hackathon/blob/main/IBM-Watson-Presentation.pptx)
+[Deck](https://github.com/meanirban100/IBM-Watson-Hackathon/blob/main/IBM-Watsonx-Presentation.pptx)
 
 ## Note
 
