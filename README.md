@@ -32,7 +32,7 @@ Integrate IBM Watson Granite model for sentiment analysis, call summarization, a
 
 ### Dataset Used
 - **Name**: NebulaByte/E-Commerce_Customer_Support_Conversations
-- **Source**: [HuggingFace Dataset](https://huggingface.co/datasets/NebulaByte/E-Commerce_Customer_Support_Conversations)
+- **Source**: [Hugging Face Dataset](https://huggingface.co/datasets/NebulaByte/E-Commerce_Customer_Support_Conversations)
 - **Column Used**: conversation
 
 ### LLM Model Used
@@ -51,11 +51,11 @@ Integrate IBM Watson Granite model for sentiment analysis, call summarization, a
 
 ## Application Walkthorugh
 
-### Dataset (Source - Huggingface)
+### Dataset (Source - Hugging Face)
 
 ![alt text](images/image-2.png)
 
-### Sentiment Analysis (Model - granite-13b-instruct-v)
+### Sentiment Analysis (Model - granite-13b-instruct-v2)
 
 ![Sentiment Analysis](images/image-3.png)
 
