@@ -7,17 +7,17 @@
 2. [🚧 Challenges](#challenges)
 3. [🛠️ Solution Stack](#solution-stack)
 4. [💻 Technical Details](#technical-details)
-5. [🧠 LLM Model Used](#llm-model-used)
-6. [📊 Key Improvements](#key-improvements)
-7. [🚀 Way Forward](#way-forward)
-8. [🧩 Solution Architecture](#solution-architecture)
-9. [🖥️ Application Walkthrough](#application-walkthrough)
-10. [🎥 Presentation](#presentation)
-11. [📝 Note](#note)
-12. [💡 Credits](#credits)
+5. [📊 Key Improvements](#key-improvements)
+6. [🚀 Way Forward](#way-forward)
+7. [🧩 Solution Architecture](#solution-architecture)
+8. [🖥️ Application Walkthrough](#application-walkthrough)
+9. [🎥 Presentation](#presentation)
+10. [📝 Note](#note)
+11. [💡 Credits](#credits)
 
 ## **📖 Background** <a name="background"></a>
-An e-commerce platform struggles with its **call center data**, handling a high volume of customer interactions daily. While it gathers extensive feedback and complaint data, this valuable resource remains underutilized. The challenge lies in analyzing the data to generate insights into **customer satisfaction** and **regional trends**, limiting the company's ability to improve services proactively.
+
+An USA based e-commerce platform struggles with its **call center data**, handling a high volume of customer interactions daily. While it gathers extensive feedback and complaint data, this valuable resource remains underutilized. The challenge lies in analyzing the data to generate insights into **customer satisfaction** and **regional trends**, limiting the company's ability to improve services proactively.
 
 ## **🚧 Challenges** <a name="challenges"></a>
 - **🧠 Sentiment Analysis**: Accurately identifying customer sentiment from call conversations.
@@ -25,18 +25,19 @@ An e-commerce platform struggles with its **call center data**, handling a high 
 - **📍 Regional Insights**: Analyzing customer feedback by location to identify trends and concerns.
 
 ## **🛠️ Solution Stack** <a name="solution-stack"></a>
-To address these challenges, we leveraged **IBM Watsonx Granite models** for sentiment analysis, call summarization, and feature extraction using advanced **prompt engineering techniques**.
+To address these challenges **IBM Watsonx Granite models** are levered. Sentiment analysis, call summarization, and feature extraction are done  using **prompt engineering techniques**.
 
 
 ## **💻 Technical Details** <a name="technical-details"></a>
-- **Language**: Python>=3.10
+### **📚 Language**
+- Python>=3.10
 
-### **📊 Dataset Used**
+### **📊 Dataset**
 - **Name**: `NebulaByte/E-Commerce_Customer_Support_Conversations`
 - **Source**: [Hugging Face Dataset](https://huggingface.co/datasets/NebulaByte/E-Commerce_Customer_Support_Conversations)
 - **Column Used**: `conversation`
 
-## **🧠 LLM Model Used** <a name="llm-model-used"></a>
+### **🧠 LLM Model Used** <a name="llm-model-used"></a>
 - **Sentiment Analysis**: `ibm/granite-13b-instruct-v2`
 - **Call Summary & Feature Extraction**: `ibm/granite-13b-chat-v2`
 
@@ -45,10 +46,11 @@ To address these challenges, we leveraged **IBM Watsonx Granite models** for sen
   *(Generate API key from IBM Cloud platform)*
 
 ## **📊 Key Improvements** <a name="key-improvements"></a>
-- **Boosting Team Productivity**: Implementing sentiment analysis & text summarization helps streamline processes, enabling teams to focus on key tasks.
-- **Targeted Training**: Analyzing call summaries identifies skill gaps, enabling tailored training initiatives for employees.
-- **Customer Satisfaction-Based HR Incentives**: Customer satisfaction metrics derived from call summaries can guide year-end bonuses and promote a customer-centric approach.
-- **Product Improvement Feedback**: Recurring negative feedback on products can be flagged, allowing collaboration with vendors to address product quality or delivery or any other issues.
+- **🚀 Boosting Team Productivity**: Implementing sentiment analysis & text summarization helps streamline processes, enabling teams to focus on key tasks.
+- **🎯 Targeted Training**: Analyzing call summaries identifies skill gaps, enabling tailored training initiatives for employees.
+- **🏆 Customer Satisfaction-Based HR Incentives**: Customer satisfaction metrics derived from call summaries can guide year-end bonuses and promote a customer-centric approach.
+- **🔧 Product Improvement Feedback**: Recurring negative feedback on products can be flagged, allowing collaboration with vendors to address product quality, delivery, or other issues.
+
 
 ## **🧩 Solution Architecture** <a name="solution-architecture"></a>
 
