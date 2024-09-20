@@ -1,44 +1,43 @@
 # **🌟 Enhanced Customer Experience & Improved Employee Productivity using IBM-Watsonx 🌟**
 
-![IBM Watsonx](images/image-21.png)
-
----
+![IBM Watsonx](https://www.ibm.com/blog/wp-content/uploads/2023/11/ibm_watsonx_paid_1200x627-04.blog-lead-space-2x1-1.jpg)
 
 ## **🎯 Index**
 1. [📖 Background](#background)
 2. [🚧 Challenges](#challenges)
 3. [🛠️ Solution Stack](#solution-stack)
 4. [💻 Technical Details](#technical-details)
-5. [📊 LLM Model Used](#llm-model-used)
-6. [🚀 Way Forward](#way-forward)
-7. [🏗️ Solution Architecture](#solution-architecture)
-8. [🔍 Application Walkthrough](#application-walkthrough)
-9. [🎥 Presentation](#presentation)
-10. [📝 Note](#note)
-11. [💡 Credits](#credits)
+5. [🧠 LLM Model Used](#llm-model-used)
+6. [📊 Key Improvements](#key-improvements)
+7. [🚀 Way Forward](#way-forward)
+8. [🧩 Solution Architecture](#solution-architecture)
+9. [🖥️ Application Walkthrough](#application-walkthrough)
+10. [🎥 Presentation](#presentation)
+11. [📝 Note](#note)
+12. [💡 Credits](#credits)
 
 ---
 
 ## **📖 Background** <a name="background"></a>
-An e-commerce platform struggles with its **call center data**, handling a high volume of customer interactions daily. Though it gathers vast feedback and complaint data, this wealth remains underutilized. The challenge lies in analyzing the data effectively to gain insights into **customer satisfaction** and **regional trends**, limiting proactive service improvements.
+An e-commerce platform struggles with its **call center data**, handling a high volume of customer interactions daily. While it gathers extensive feedback and complaint data, this valuable resource remains underutilized. The challenge lies in analyzing the data to generate insights into **customer satisfaction** and **regional trends**, limiting the company's ability to improve services proactively.
 
 ---
 
 ## **🚧 Challenges** <a name="challenges"></a>
-- **🧠 Sentiment Analysis**: Accurately identifying customer sentiments from call conversations.
-- **📝 Call Summarization**: Summarizing lengthy calls for deeper insights.
-- **📍 Regional Insights**: Extracting trends based on customer location.
+- **🧠 Sentiment Analysis**: Accurately identifying customer sentiment from call conversations.
+- **📝 Call Summarization**: Summarizing lengthy calls to extract valuable insights.
+- **📍 Regional Insights**: Analyzing customer feedback by location to identify trends and concerns.
 
 ---
 
 ## **🛠️ Solution Stack** <a name="solution-stack"></a>
-To tackle these challenges, we leverage **IBM Watsonx Granite** models for sentiment analysis, call summarization, and feature extraction using **prompt engineering**.
+To address these challenges, we leveraged **IBM Watsonx Granite models** for sentiment analysis, call summarization, and feature extraction using advanced **prompt engineering techniques**.
 
 ---
 
 ## **💻 Technical Details** <a name="technical-details"></a>
-- **Language**: Python 🐍
-  
+- **Language**: Python>=3.10
+
 ### **📊 Dataset Used**
 - **Name**: `NebulaByte/E-Commerce_Customer_Support_Conversations`
 - **Source**: [Hugging Face Dataset](https://huggingface.co/datasets/NebulaByte/E-Commerce_Customer_Support_Conversations)
@@ -46,32 +45,33 @@ To tackle these challenges, we leverage **IBM Watsonx Granite** models for senti
 
 ---
 
-## **📊 LLM Model Used** <a name="llm-model-used"></a>
+## **🧠 LLM Model Used** <a name="llm-model-used"></a>
 - **Sentiment Analysis**: `ibm/granite-13b-instruct-v2`
 - **Call Summary & Feature Extraction**: `ibm/granite-13b-chat-v2`
 
 ### **📂 Notebook**
-- [Notebook Link](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/hackathon-challenge.ipynb)  
+- [Hackathon Notebook](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/hackathon-challenge.ipynb)  
   *(Generate API key from IBM Cloud platform)*
 
 ---
 
-## **🚀 Way Forward** <a name="way-forward"></a>
-- **💼 Productivity & Efficiency**: Enhanced call summarization can streamline processes and improve call center efficiency.
-- **📈 Performance-Based Compensation**: Operational optimization could enable performance-based pay models.
-- **🌐 Cloud Flexibility**: The solution can scale across **AWS**, **Azure**, and **GCP**, offering seamless integration.
+## **📊 Key Improvements** <a name="key-improvements"></a>
+- **Boosting Team Productivity**: Implementing sentiment analysis & text summarization helps streamline processes, enabling teams to focus on key tasks.
+- **Targeted Training**: Analyzing call summaries identifies skill gaps, enabling tailored training initiatives for employees.
+- **Customer Satisfaction-Based HR Incentives**: Customer satisfaction metrics derived from call summaries can guide year-end bonuses and promote a customer-centric approach.
+- **Product Improvement Feedback**: Recurring negative feedback on products can be flagged, allowing collaboration with vendors to address product quality or delivery or any other issues.
 
 ---
 
-## **🏗️ Solution Architecture** <a name="solution-architecture"></a>
+## **🧩 Solution Architecture** <a name="solution-architecture"></a>
 
 ![Solution Architecture](images/image-20.png)
 
 ---
 
-## **🔍 Application Walkthrough** <a name="application-walkthrough"></a>
+## **🖥️ Application Walkthrough** <a name="application-walkthrough"></a>
 
-### **📄 Dataset** (Source: Hugging Face)
+### **📄 Dataset (Source: Hugging Face)**
 
 ![Dataset](images/image-2.png)
 
@@ -112,7 +112,7 @@ To tackle these challenges, we leverage **IBM Watsonx Granite** models for senti
 ---
 
 ## **🎥 Presentation** <a name="presentation"></a>
-[**Deck Presentation**](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/IBM-Watsonx-Presentation.pptx)
+[**Slide Deck**](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/IBM-Watsonx-Presentation.pptx)
 
 ---
 
