@@ -54,47 +54,48 @@ To address these challenges **IBM Watsonx Granite models** are levered. Sentimen
 
 ## **🧩 Solution Architecture** <a name="solution-architecture"></a>
 
-![Solution Architecture](images/image-20.png)
+![Solution Architecture](assets/images/image-20.png)
 
 ## **🖥️ Application Walkthrough** <a name="application-walkthrough"></a>
 
 ### **📄 Dataset (Source: Hugging Face)**
 
-![Dataset](images/image-2.png)
+![Dataset](assets/images/image-2.png)
 
 ### **🧠 Sentiment Analysis** (Model: `granite-13b-instruct-v2`)
 
-![Sentiment Analysis](images/image-3.png)
+![Sentiment Analysis](assets/images/image-3.png)
 
-![Sentiment Analysis](images/image-4.png)
+![Sentiment Analysis](assets/images/image-4.png)
 
 ### **📝 Text Summarization** (Model: `granite-13b-chat-v2`)
 
-![Text Summarization](images/image-5.png)
+![Text Summarization](assets/images/image-5.png)
 
-![Text Summarization](images/image-7.png)
+
+![Text Summarization](assets/images/image-7.png)
 
 ### **🔍 Feature Extraction** (Model: `granite-13b-chat-v2`)
 
-![Feature Extraction](images/image-8.png)
+![Feature Extraction](assets/images/image-8.png)
 
-![Feature Extraction](images/image-9.png)
+![Feature Extraction](assets/images/image-9.png)
 
 ### **📅 Customer Sentiment by Day (Plotly)**
 
-![Customer Sentiment Analytics](images/image-10.png)
+![Customer Sentiment Analytics](assets/images/image-22.png)
 
 ### **📊 Top 10 User Interest (Categories) (Plotly)**
 
-![User Interest](images/image-11.png)
+![User Interest](assets/images/image-23.png)
 
 ### **☁️ Word Cloud Dashboard (Plotly)**
 
-![Word Cloud Dashboard](images/image-12.png)
+![Word Cloud Dashboard](assets/images/image-24.png)
 
 ### **📍 Location-Wise Call Records (Plotly)**
 
-![Location Wise Call Records](images/image-13.png)
+![Location Wise Call Records](assets/images/image-25.png)
 
 ## **🎥 Presentation** <a name="presentation"></a>
 [**Slide Deck**](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/IBM-Watsonx-Presentation.pptx)
