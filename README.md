@@ -1,4 +1,4 @@
-# **🌟 Enhanced Customer Experience & Improved Employee Productivity using IBM-Watsonx 🌟**
+# **🌟 Enhanced Customer Experience & Improved Employee Productivity using IBM-WatsonX 🌟**
 
 ![IBM Watsonx](https://www.ibm.com/blog/wp-content/uploads/2023/11/ibm_watsonx_paid_1200x627-04.blog-lead-space-2x1-1.jpg)
 
@@ -8,16 +8,15 @@
 3. [🛠️ Solution Stack](#solution-stack)
 4. [💻 Technical Details](#technical-details)
 5. [📊 Key Improvements](#key-improvements)
-6. [🚀 Way Forward](#way-forward)
-7. [🧩 Solution Architecture](#solution-architecture)
-8. [🖥️ Application Walkthrough](#application-walkthrough)
-9. [🎥 Presentation](#presentation)
-10. [📝 Note](#note)
-11. [💡 Credits](#credits)
+6. [🧩 Solution Architecture](#solution-architecture)
+7. [🖥️ Application Walkthrough](#application-walkthrough)
+8. [🎥 Presentation](#presentation)
+9. [📝 Note](#note)
+10. [💡 Credits](#credits)
 
 ## **📖 Background** <a name="background"></a>
 
-An USA based e-commerce platform struggles with its **call center data**, handling a high volume of customer interactions daily. While it gathers extensive feedback and complaint data, this valuable resource remains underutilized. The challenge lies in analyzing the data to generate insights into **customer satisfaction** and **regional trends**, limiting the company's ability to improve services proactively.
+An US based e-commerce platform struggles with its **call center data**, handling a high volume of customer interactions daily. While it gathers extensive feedback and complaint data, this valuable resource remains underutilized. The challenge lies in analyzing the data to generate insights into **customer satisfaction** and **regional trends**, limiting the company's ability to improve services proactively.
 
 ## **🚧 Challenges** <a name="challenges"></a>
 - **🧠 Sentiment Analysis**: Accurately identifying customer sentiment from call conversations.
@@ -25,7 +24,7 @@ An USA based e-commerce platform struggles with its **call center data**, handli
 - **📍 Regional Insights**: Analyzing customer feedback by location to identify trends and concerns.
 
 ## **🛠️ Solution Stack** <a name="solution-stack"></a>
-To address these challenges **IBM Watsonx Granite models** are levered. Sentiment analysis, call summarization, and feature extraction are done  using **prompt engineering techniques**.
+To address these challenges **IBM WatsonX Granite models** are levered. Sentiment analysis, call summarization, and feature extraction are done  using **prompt engineering techniques**.
 
 
 ## **💻 Technical Details** <a name="technical-details"></a>
@@ -59,9 +58,9 @@ To address these challenges **IBM Watsonx Granite models** are levered. Sentimen
 ![Solution Architecture](assets/images/image-20.png)
 
 ## **🖥️ Application Walkthrough** <a name="application-walkthrough"></a>
+#### Please refer below youtube video for detailed explanation - 
 
 [![Getting Started](assets/images/thumbnail-play-button.png)](https://www.youtube.com/watch?v=sftaErGwO00)
-
 
 ### **📄 Dataset (Source: Hugging Face)**
 
@@ -111,5 +110,7 @@ This submission is part of the **IBM TechXchange Pre-Conference Watsonx Hackatho
 Refer to the [Hackathon Page](https://compete.pretxchack.watsonx-challenge.ibm.com/competitions/pre-txc) for more details.
 
 ## **💡 Credits** <a name="credits"></a>
+**[Team - Tech Maverick](https://compete.pretxchack.watsonx-challenge.ibm.com/competitions/pre-txc/teams/710)**
 - **Anirban Banerjee**  
 - **Ajoy Kumar Daga**
+
