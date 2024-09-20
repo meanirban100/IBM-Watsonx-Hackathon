@@ -84,7 +84,7 @@ To address these challenges **IBM Watsonx Granite models** are levered. Sentimen
 
 ![Customer Sentiment Analytics](images/image-10.png)
 
-### **📊 Top 10 User Interest (Categories)**
+### **📊 Top 10 User Interest (Categories) (Plotly)**
 
 ![User Interest](images/image-11.png)
 
