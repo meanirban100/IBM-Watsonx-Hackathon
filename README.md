@@ -60,7 +60,8 @@ To address these challenges **IBM Watsonx Granite models** are levered. Sentimen
 
 ## **🖥️ Application Walkthrough** <a name="application-walkthrough"></a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=sftaErGwO00" frameborder="0" allowfullscreen></iframe>
+[![Getting Started](assets/images/thumbnail-play-button.png)](https://www.youtube.com/watch?v=sftaErGwO00)
+
 
 ### **📄 Dataset (Source: Hugging Face)**
 
