@@ -16,24 +16,17 @@
 11. [📝 Note](#note)
 12. [💡 Credits](#credits)
 
----
-
 ## **📖 Background** <a name="background"></a>
 An e-commerce platform struggles with its **call center data**, handling a high volume of customer interactions daily. While it gathers extensive feedback and complaint data, this valuable resource remains underutilized. The challenge lies in analyzing the data to generate insights into **customer satisfaction** and **regional trends**, limiting the company's ability to improve services proactively.
-
----
 
 ## **🚧 Challenges** <a name="challenges"></a>
 - **🧠 Sentiment Analysis**: Accurately identifying customer sentiment from call conversations.
 - **📝 Call Summarization**: Summarizing lengthy calls to extract valuable insights.
 - **📍 Regional Insights**: Analyzing customer feedback by location to identify trends and concerns.
 
----
-
 ## **🛠️ Solution Stack** <a name="solution-stack"></a>
 To address these challenges, we leveraged **IBM Watsonx Granite models** for sentiment analysis, call summarization, and feature extraction using advanced **prompt engineering techniques**.
 
----
 
 ## **💻 Technical Details** <a name="technical-details"></a>
 - **Language**: Python>=3.10
@@ -43,8 +36,6 @@ To address these challenges, we leveraged **IBM Watsonx Granite models** for sen
 - **Source**: [Hugging Face Dataset](https://huggingface.co/datasets/NebulaByte/E-Commerce_Customer_Support_Conversations)
 - **Column Used**: `conversation`
 
----
-
 ## **🧠 LLM Model Used** <a name="llm-model-used"></a>
 - **Sentiment Analysis**: `ibm/granite-13b-instruct-v2`
 - **Call Summary & Feature Extraction**: `ibm/granite-13b-chat-v2`
@@ -53,21 +44,15 @@ To address these challenges, we leveraged **IBM Watsonx Granite models** for sen
 - [Hackathon Notebook](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/hackathon-challenge.ipynb)  
   *(Generate API key from IBM Cloud platform)*
 
----
-
 ## **📊 Key Improvements** <a name="key-improvements"></a>
 - **Boosting Team Productivity**: Implementing sentiment analysis & text summarization helps streamline processes, enabling teams to focus on key tasks.
 - **Targeted Training**: Analyzing call summaries identifies skill gaps, enabling tailored training initiatives for employees.
 - **Customer Satisfaction-Based HR Incentives**: Customer satisfaction metrics derived from call summaries can guide year-end bonuses and promote a customer-centric approach.
 - **Product Improvement Feedback**: Recurring negative feedback on products can be flagged, allowing collaboration with vendors to address product quality or delivery or any other issues.
 
----
-
 ## **🧩 Solution Architecture** <a name="solution-architecture"></a>
 
 ![Solution Architecture](images/image-20.png)
-
----
 
 ## **🖥️ Application Walkthrough** <a name="application-walkthrough"></a>
 
@@ -109,19 +94,13 @@ To address these challenges, we leveraged **IBM Watsonx Granite models** for sen
 
 ![Location Wise Call Records](images/image-13.png)
 
----
-
 ## **🎥 Presentation** <a name="presentation"></a>
 [**Slide Deck**](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/IBM-Watsonx-Presentation.pptx)
-
----
 
 ## **📝 Note** <a name="note"></a>
 This submission is part of the **IBM TechXchange Pre-Conference Watsonx Hackathon**.  
 
 Refer to the [Hackathon Page](https://compete.pretxchack.watsonx-challenge.ibm.com/competitions/pre-txc) for more details.
-
----
 
 ## **💡 Credits** <a name="credits"></a>
 - **Anirban Banerjee**  
