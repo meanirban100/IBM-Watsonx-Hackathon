@@ -42,7 +42,9 @@ To address these challenges **IBM Watsonx Granite models** are levered. Sentimen
 - **Call Summary & Feature Extraction**: `ibm/granite-13b-chat-v2`
 
 ### **📂 Notebook**
-- [Hackathon Notebook](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/hackathon-challenge.ipynb)  
+- Notebook - [hackathon-challenge.ipynb](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/hackathon-challenge.ipynb) 
+- Python - [hackathon-challenge.py](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/hackathon-challenge.py)
+
   *(Generate API key from IBM Cloud platform)*
 
 ## **📊 Key Improvements** <a name="key-improvements"></a>
