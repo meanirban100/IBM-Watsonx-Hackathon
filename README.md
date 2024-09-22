@@ -45,6 +45,10 @@ To address these challenges **IBM WatsonX Granite models** are levered. Sentimen
 - Python - [hackathon-challenge.py](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/hackathon-challenge.py)
 
   *(Generate API key from IBM Cloud platform)*
+  
+- Output HTML Version- [hackathon-challenge.html](https://github.com/meanirban100/IBM-Watsonx-Hackathon/blob/main/hackathon-challenge.html)
+
+
 
 ## **📊 Key Improvements** <a name="key-improvements"></a>
 - **🚀 Boosting Team Productivity**: Implementing sentiment analysis & text summarization helps streamline processes, enabling teams to focus on key tasks.
